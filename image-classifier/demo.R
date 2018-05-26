@@ -9,7 +9,7 @@ install_keras()
 # Load in a pretrained model: Using Inception V3 with ImageNet weights
 model <- application_inception_v3(weights = "imagenet")
 
-# Load in image from `imgs` directory. Images include that of an elephant, hamster, apples and oranges
+# Load in image from `imgs` directory. Images include that of an elephant, mouse, apples and oranges
 # Feel free to add your own images to the directory to test the model
 img_path <- "./imgs/elephant.jpg"
 img <- image_load(img_path, target_size = c(299, 299))
